@@ -1,0 +1,234 @@
+<mxfile host="Electron">
+  <diagram id="ucmm76qiFWtQA_yCglS7" name="Page-1">
+    <mxGraphModel dx="1154" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fact_header" parent="1" style="swimlane;startSize=30;fillColor=#6d3cc9;fontColor=#ffffff;strokeColor=#4d2b8a;fontSize=13;fontStyle=1;arcSize=5;" value="fact_listings" vertex="1">
+          <mxGeometry height="602" width="250" x="430" y="270" as="geometry">
+            <mxRectangle height="30" width="110" x="430" y="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;fontStyle=1" value="listing_id (PK)" vertex="1">
+          <mxGeometry height="22" width="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_id (FK)" vertex="1">
+          <mxGeometry height="22" width="250" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="property_id (FK)" vertex="1">
+          <mxGeometry height="22" width="250" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="f3b" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="room_type (FK)" vertex="1">
+          <mxGeometry height="22" width="250" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="location_id (FK)" vertex="1">
+          <mxGeometry height="22" width="250" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="last_scraped (FK)" vertex="1">
+          <mxGeometry height="22" width="250" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="price" vertex="1">
+          <mxGeometry height="22" width="250" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="f7b" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="minimum_nights" vertex="1">
+          <mxGeometry height="22" width="250" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="f7c" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="maximum_nights" vertex="1">
+          <mxGeometry height="22" width="250" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="f8a" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="availability_365" vertex="1">
+          <mxGeometry height="22" width="250" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="occupancy_rate" vertex="1">
+          <mxGeometry height="22" width="250" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="estimated_revenue" vertex="1">
+          <mxGeometry height="22" width="250" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_rating" vertex="1">
+          <mxGeometry height="22" width="250" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="f10b" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_accuracy" vertex="1">
+          <mxGeometry height="22" width="250" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="f10c" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_cleanliness" vertex="1">
+          <mxGeometry height="22" width="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f10d" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_checkin" vertex="1">
+          <mxGeometry height="22" width="250" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="f10e" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_communication" vertex="1">
+          <mxGeometry height="22" width="250" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="f10f" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_location" vertex="1">
+          <mxGeometry height="22" width="250" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="f10g" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="review_scores_value" vertex="1">
+          <mxGeometry height="22" width="250" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="reviews_per_month" vertex="1">
+          <mxGeometry height="22" width="250" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="has_availability" vertex="1">
+          <mxGeometry height="22" width="250" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="f14" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="instant_bookable" vertex="1">
+          <mxGeometry height="22" width="250" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="number_of_reviews" vertex="1">
+          <mxGeometry height="22" width="250" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="f12b" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="number_of_reviews_ltm" vertex="1">
+          <mxGeometry height="22" width="250" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="f5b" parent="fact_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="weather_id (FK)" vertex="1">
+          <mxGeometry height="22" width="250" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="host_header" parent="1" style="swimlane;startSize=30;fillColor=#0e7a6b;fontColor=#ffffff;strokeColor=light-dark(#0e7a6b, #85c3bc);fontSize=13;fontStyle=1;arcSize=5;" value="dim_host" vertex="1">
+          <mxGeometry height="230" width="200" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;fontStyle=1" value="host_id (PK)" vertex="1">
+          <mxGeometry height="22" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_name" vertex="1">
+          <mxGeometry height="22" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_since" vertex="1">
+          <mxGeometry height="22" width="200" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_location" vertex="1">
+          <mxGeometry height="22" width="200" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_response_time" vertex="1">
+          <mxGeometry height="22" width="200" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="h6" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_response_rate" vertex="1">
+          <mxGeometry height="22" width="200" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="h7" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_acceptance_rate" vertex="1">
+          <mxGeometry height="22" width="200" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="h8" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_is_superhost" vertex="1">
+          <mxGeometry height="22" width="200" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="h9" parent="host_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="host_listings_count" vertex="1">
+          <mxGeometry height="22" width="200" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="prop_header" parent="1" style="swimlane;startSize=30;fillColor=#0e7a6b;fontColor=#ffffff;strokeColor=#085048;fontSize=13;fontStyle=1;arcSize=5;swimlaneFillColor=default;" value="dim_property" vertex="1">
+          <mxGeometry height="198" width="200" x="730" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;fontStyle=1" value="property_id (PK)" vertex="1">
+          <mxGeometry height="22" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="room_type" vertex="1">
+          <mxGeometry height="22" width="200" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="accommodates" vertex="1">
+          <mxGeometry height="22" width="200" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="bathrooms_text" vertex="1">
+          <mxGeometry height="22" width="200" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="bedrooms" vertex="1">
+          <mxGeometry height="22" width="200" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="beds" vertex="1">
+          <mxGeometry height="22" width="200" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="p1b" parent="prop_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="property_type" vertex="1">
+          <mxGeometry height="22" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="loc_header" parent="1" style="swimlane;startSize=30;fillColor=light-dark(#0e7a6b, #e99276);fontColor=#ffffff;strokeColor=light-dark(#0e7a6b, #efad9a);fontSize=13;fontStyle=1;arcSize=5;" value="dim_location" vertex="1">
+          <mxGeometry height="154" width="220" x="50" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="loc_header" style="text;align=left;spacingLeft=8;fontSize=11;fontStyle=1" value="location_id (PK)" vertex="1">
+          <mxGeometry height="22" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="loc_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="neighbourhood_group_cleansed" vertex="1">
+          <mxGeometry height="22" width="220" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="loc_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="latitude" vertex="1">
+          <mxGeometry height="22" width="220" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="loc_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="longitude" vertex="1">
+          <mxGeometry height="22" width="220" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="l1b" parent="loc_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="neighbourhood_cleansed" vertex="1">
+          <mxGeometry height="22" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="date_header" parent="1" style="swimlane;startSize=30;fillColor=light-dark(#0e7a6b, #ac7e21);fontColor=#ffffff;strokeColor=light-dark(#0e7a6b, #c1a05f);fontSize=13;fontStyle=1;arcSize=5;" value="dim_date" vertex="1">
+          <mxGeometry height="200" width="215" x="447.5" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="full_date (PK)" vertex="1">
+          <mxGeometry height="22" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="day" vertex="1">
+          <mxGeometry height="22" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="month" vertex="1">
+          <mxGeometry height="22" width="220" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="month_name" vertex="1">
+          <mxGeometry height="22" width="220" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="quarter" vertex="1">
+          <mxGeometry height="22" width="220" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="year" vertex="1">
+          <mxGeometry height="22" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" parent="date_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="season" vertex="1">
+          <mxGeometry height="22" width="220" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="wth_header" parent="1" style="swimlane;startSize=30;fillColor=light-dark(#0e7a6b, #6fade9);fontColor=#ffffff;strokeColor=light-dark(#0e7a6b, #85c3bc);fontSize=13;fontStyle=1;arcSize=5;" value="dim_weather" vertex="1">
+          <mxGeometry height="302" width="240" x="730" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="w1" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;fontStyle=1" value="weather_id (PK)" vertex="1">
+          <mxGeometry height="22" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="temp_mean_c" vertex="1">
+          <mxGeometry height="22" width="220" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="w3" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="temp_max_c" vertex="1">
+          <mxGeometry height="22" width="220" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="w4" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="temp_min_c" vertex="1">
+          <mxGeometry height="22" width="220" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="w5" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="daylight_duration_s" vertex="1">
+          <mxGeometry height="22" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="w6" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="sunshine_duration_s" vertex="1">
+          <mxGeometry height="22" width="220" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="w7" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="precipitation_sum_mm" vertex="1">
+          <mxGeometry height="22" width="220" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="w8" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="rain_sum_mm&#xa;&#xa;precipitation_hours&#xa;&#xa;wind_max_speed_kmh" vertex="1">
+          <mxGeometry height="22" width="220" y="206" as="geometry" />
+        </mxCell>
+        <mxCell id="w10" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="wind_dominant_direction_deg" vertex="1">
+          <mxGeometry height="22" width="220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="w1b" parent="wth_header" style="text;align=left;spacingLeft=8;fontSize=11;" value="weather_date" vertex="1">
+          <mxGeometry height="22" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" edge="1" parent="1" source="host_header" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;" target="fact_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" edge="1" parent="1" source="prop_header" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.15;entryDx=0;entryDy=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;" target="fact_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel3" edge="1" parent="1" source="loc_header" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;" target="fact_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel4" edge="1" parent="1" source="date_header" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;" target="fact_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel5" edge="1" parent="1" source="wth_header" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=ERmany;startArrow=ERone;startFill=0;endFill=0;" target="fact_header">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
